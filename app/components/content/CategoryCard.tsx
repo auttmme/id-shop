@@ -14,10 +14,11 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
-import { Categories } from "../../data.json";
+import data from "../../data.json";
 
 function CategoryCard() {
   const columns = useBreakpointValue({ base: 2, md: 3, lg: 4, xl: 6 });
+  const { Categories } = data;
 
   return (
     <Card bgColor="neutral.40" borderRadius="10px" mt={{ base: 5, lg: 10 }}>
