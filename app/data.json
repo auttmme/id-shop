@@ -1,4 +1,54 @@
 {
+  "Categories": [
+    {
+      "img": "/icons/bag-icon.svg",
+      "title": "Tas"
+    },
+    {
+      "img": "/icons/dress-icon.svg",
+      "title": "Pakaian Wanita"
+    },
+    {
+      "img": "/icons/t-shirt-icon.svg",
+      "title": "Pakaian Pria"
+    },
+    {
+      "img": "/icons/high-heels-icon.svg",
+      "title": "Sepatu Wanita"
+    },
+    {
+      "img": "/icons/shoes-icon.svg",
+      "title": "Sepatu Pria"
+    },
+    {
+      "img": "/icons/hobby-icon.svg",
+      "title": "Hobi"
+    },
+    {
+      "img": "/icons/food-and-drink-icon.svg",
+      "title": "Makanan dan Minuman"
+    },
+    {
+      "img": "/icons/home-and-living-icon.svg",
+      "title": "Perlengkapan Rumah"
+    },
+    {
+      "img": "/icons/laptop-icon.svg",
+      "title": "Komputer dan Aksesoris"
+    },
+    {
+      "img": "/icons/baby-icon.svg",
+      "title": "Ibu dan Anak"
+    },
+    {
+      "img": "/icons/makeup-icon.svg",
+      "title": "Perawatan dan Kecantikan"
+    },
+    {
+      "img": "/icons/medicine-icon.svg",
+      "title": "Kesehatan"
+    }
+  ],
   "Discount": [
     {
       "id": 1,
