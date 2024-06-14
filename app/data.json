@@ -1,4 +1,42 @@
 {
+  "Discount": [
+    {
+      "id": 1,
+      "image": "/images/book.jpg",
+      "price": "Rp10.900",
+      "discount": "-50%"
+    },
+    {
+      "id": 2,
+      "image": "/images/boots.jpg",
+      "price": "Rp120.899",
+      "discount": "-20%"
+    },
+    {
+      "id": 3,
+      "image": "/images/white-sweater.jpg",
+      "price": "Rp67.402",
+      "discount": "-70%"
+    },
+    {
+      "id": 4,
+      "image": "/images/sandals.jpg",
+      "price": "Rp49.909",
+      "discount": "-10%"
+    },
+    {
+      "id": 5,
+      "image": "/images/utensils.jpg",
+      "price": "Rp80.128",
+      "discount": "-60%"
+    },
+    {
+      "id": 6,
+      "image": "/images/phone-case.jpg",
+      "price": "Rp59.093",
+      "discount": "-70%"
+    }
+  ],
   "Recommendation": [
     {
       "id": 1,
