@@ -1,0 +1,98 @@
+{
+  "Recommendation": [
+    {
+      "id": 1,
+      "title": "Pinka Lipstick - Red Cheery Bloom",
+      "image": "/images/lipstick.jpg",
+      "price": "Rp120.683",
+      "sold": "1.5RB"
+    },
+    {
+      "id": 2,
+      "title": "Eye Shadow Mulan - Cold Tone",
+      "image": "/images/eyeshadow.jpg",
+      "price": "Rp80.837",
+      "sold": "1RB",
+      "discount": "-20%"
+    },
+    {
+      "id": 3,
+      "title": "Almond Milk - FreshkyMilk",
+      "image": "/images/milk.jpg",
+      "price": "Rp54.829",
+      "sold": "456",
+      "discount": "-50%"
+    },
+    {
+      "id": 4,
+      "title": "Kaos Hitam Bulop - Size M",
+      "image": "/images/black-shirt.jpg",
+      "price": "Rp83.092",
+      "sold": "1RB",
+      "discount": "-20%"
+    },
+    {
+      "id": 5,
+      "title": "Reed Diffuser Aromaterapi",
+      "image": "/images/diffuser.jpg",
+      "price": "Rp50.568",
+      "sold": "10RB+",
+      "discount": "-10%"
+    },
+    {
+      "id": 6,
+      "title": "Alexa Ring - Titanium Silver Gold",
+      "image": "/images/ring.jpg",
+      "price": "Rp93.002",
+      "sold": "1RB",
+      "discount": "-50%"
+    },
+    {
+      "id": 7,
+      "title": "Kacamata baca murah",
+      "image": "/images/eyeglasses.jpg",
+      "price": "Rp45.903",
+      "sold": "5RB",
+      "discount": "-25%"
+    },
+    {
+      "id": 8,
+      "title": "Sepatu kerja wanita - Putih",
+      "image": "/images/high-heels.jpg",
+      "price": "Rp110.938",
+      "sold": "2.1RB"
+    },
+    {
+      "id": 9,
+      "title": "Baju wanita - Hijau Army",
+      "image": "/images/jumpsuit.jpg",
+      "price": "Rp39.748",
+      "sold": "6.2RB",
+      "discount": "-10%"
+    },
+    {
+      "id": 10,
+      "title": "Levis wanita premium",
+      "image": "/images/jeans.jpg",
+      "price": "Rp320.739",
+      "sold": "1.5RB",
+      "discount": "-50%"
+    },
+    {
+      "id": 11,
+      "title": "Wadah kaca estetik",
+      "image": "/images/jar.jpg",
+      "price": "Rp29.478",
+      "sold": "5RB",
+      "discount": "-80%"
+    },
+    {
+      "id": 12,
+      "title": "Mechanical Wireless Keyboard - Visky",
+      "image": "/images/keyboard.jpg",
+      "price": "Rp490.379",
+      "sold": "9.4RB",
+      "discount": "-10%"
+    }
+  ]
+}
