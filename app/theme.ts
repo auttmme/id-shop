@@ -1,5 +1,4 @@
 import { extendTheme } from "@chakra-ui/react";
-import { fonts } from "./fonts";
 
 const config = {
   initialColorMode: "light",
