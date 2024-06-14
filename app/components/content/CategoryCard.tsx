@@ -17,7 +17,7 @@ import React from "react";
 import data from "../../data.json";
 
 function CategoryCard() {
-  const columns = useBreakpointValue({ base: 2, md: 3, lg: 4, xl: 6 });
+  const columns = useBreakpointValue({ base: 2, md: 3, lg: 4, xl: 6 }) ?? 2;
   const { Categories } = data;
 
   return (
