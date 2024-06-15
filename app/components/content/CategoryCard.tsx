@@ -21,7 +21,7 @@ function CategoryCard() {
   const { Categories } = data;
 
   return (
-    <Card bgColor="neutral.40" borderRadius="10px" mt={{ base: 5, lg: 10 }}>
+    <Card bgColor="neutral.40" borderRadius="10px">
       <CardHeader>
         <Heading size={"lg"}>Kategori</Heading>
       </CardHeader>
