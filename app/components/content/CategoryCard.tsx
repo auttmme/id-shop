@@ -44,6 +44,7 @@ function CategoryCard() {
               <Box
                 key={index}
                 py={6}
+                px={2}
                 borderBottom={isLastRow ? "none" : "1px solid #AFB1B6"}
                 borderRight={isLastColumn ? "none" : "1px solid #AFB1B6"}
               >
@@ -51,6 +52,7 @@ function CategoryCard() {
                   direction="column"
                   justifyContent="center"
                   alignItems={"center"}
+                  gap={3}
                 >
                   <Image
                     src={item.img}
@@ -58,8 +60,9 @@ function CategoryCard() {
                     width={{ base: "40px", lg: "80px" }}
                     height={{ base: "40px", lg: "80px" }}
                   />
-                  <Text>{isLastRow}</Text>
-                  <Text textAlign={"center"}>{item.title}</Text>
+                  <Text textAlign={"center"} fontWeight={"500"}>
+                    {item.title}
+                  </Text>
                 </Flex>
               </Box>
             );
