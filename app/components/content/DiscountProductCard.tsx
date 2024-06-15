@@ -58,6 +58,8 @@ function DiscountProductCard() {
                   image={item.image}
                   price={item.price}
                   discount={item.discount}
+                  imgWidth="150px"
+                  imgHeigth="150px"
                 />
               </Center>
             </SwiperSlide>
