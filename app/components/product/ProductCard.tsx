@@ -23,29 +23,29 @@ function ProductCard({
   return (
     <Box p={4} position={"relative"} bgColor={"neutral.40"}>
       <Flex direction="column" justifyContent={"space-between"} height={"100%"}>
-        <Image
-          src={image}
-          alt={title}
-          w={imgWidth}
-          h={imgHeigth}
-          objectFit={"cover"}
-        />
         <Flex direction="column">
+          <Image
+            src={image}
+            alt={title}
+            w={imgWidth}
+            h={imgHeigth}
+            objectFit={"cover"}
+          />
           <Stack mt={4} gap={1}>
             <Text>{title}</Text>
             <Text fontWeight={"500"}>{price}</Text>
           </Stack>
-          {sold && (
-            <Text
-              mt={4}
-              color={"neutral.10"}
-              fontWeight={"500"}
-              alignSelf={"flex-end"}
-            >
-              {sold} Terjual
-            </Text>
-          )}
         </Flex>
+        {sold && (
+          <Text
+            mt={4}
+            color={"neutral.10"}
+            fontWeight={"500"}
+            alignSelf={"flex-end"}
+          >
+            {sold} Terjual
+          </Text>
+        )}
       </Flex>
       {discount && (
         <Box
