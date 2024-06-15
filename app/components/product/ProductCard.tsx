@@ -7,49 +7,61 @@ interface ProductProps {
   price: string;
   sold?: string;
   discount?: string;
+  imgWidth: string;
+  imgHeigth: string;
 }
 
-function ProductCard({ title, image, price, sold, discount }: ProductProps) {
+function ProductCard({
+  title,
+  image,
+  price,
+  sold,
+  discount,
+  imgWidth,
+  imgHeigth,
+}: ProductProps) {
   return (
-    <Box p={4} position={"relative"} bgColor={"neutral.40"} w={"160px"}>
-      <Flex
-        direction="column"
-        alignItems={"flex-start"}
-        justifyContent={"flex-end"}
-      >
+    <Box p={4} position={"relative"} bgColor={"neutral.40"}>
+      <Flex direction="column" justifyContent={"space-between"} height={"100%"}>
         <Image
           src={image}
           alt={title}
-          w="150px"
-          h="150px"
+          w={imgWidth}
+          h={imgHeigth}
           objectFit={"cover"}
         />
-        <Stack mt={4} gap={1}>
-          <Text>{title}</Text>
-          <Text fontWeight={"500"}>{price}</Text>
-        </Stack>
-        <Text
-          mt={4}
-          color={"neutral.10"}
-          fontWeight={"500"}
-          alignSelf={"flex-end"}
-        >
-          {sold}
-        </Text>
+        <Flex direction="column">
+          <Stack mt={4} gap={1}>
+            <Text>{title}</Text>
+            <Text fontWeight={"500"}>{price}</Text>
+          </Stack>
+          {sold && (
+            <Text
+              mt={4}
+              color={"neutral.10"}
+              fontWeight={"500"}
+              alignSelf={"flex-end"}
+            >
+              {sold} Terjual
+            </Text>
+          )}
+        </Flex>
       </Flex>
-      <Box
-        borderTopLeftRadius={"2px"}
-        borderBottomLeftRadius={"2px"}
-        bgColor={"primary.1"}
-        color={"white"}
-        px={3}
-        position={"absolute"}
-        right={0}
-        top={2}
-        z-index={100}
-      >
-        <Text fontWeight={"500"}>{discount}</Text>
-      </Box>
+      {discount && (
+        <Box
+          borderTopLeftRadius={"2px"}
+          borderBottomLeftRadius={"2px"}
+          bgColor={"primary.1"}
+          color={"white"}
+          px={3}
+          position={"absolute"}
+          right={0}
+          top={2}
+          z-index={100}
+        >
+          <Text fontWeight={"500"}>{discount}</Text>
+        </Box>
+      )}
     </Box>
   );
 }

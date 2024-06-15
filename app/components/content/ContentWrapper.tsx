@@ -5,6 +5,7 @@ import CategoryCard from "./CategoryCard";
 import DiscountProductCard from "./DiscountProductCard";
 import BillsCard from "./BillsCard";
 import PromoCard from "./PromoCard";
+import RecommendationProductCard from "./RecommendationProductCard";
 
 function ContentWrapper() {
   return (
@@ -18,6 +19,7 @@ function ContentWrapper() {
       <BillsCard />
       <PromoCard />
       <DiscountProductCard />
+      <RecommendationProductCard />
     </Stack>
   );
 }
