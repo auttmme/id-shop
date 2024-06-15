@@ -1,15 +1,24 @@
 import React from "react";
-import { Recommendation } from "../../data.json";
-import { Box, Text, Image } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import BannerCarousel from "../BannerCarousel";
 import CategoryCard from "./CategoryCard";
+import DiscountProductCard from "./DiscountProductCard";
+import BillsCard from "./BillsCard";
+import PromoCard from "./PromoCard";
 
 function ContentWrapper() {
   return (
-    <Box px={{ base: "16px", md: "40px", lg: "116px" }} pt={10}>
+    <Stack
+      px={{ base: "16px", md: "40px", lg: "116px" }}
+      pt={10}
+      gap={{ base: 5, lg: 10 }}
+    >
       <BannerCarousel />
       <CategoryCard />
-    </Box>
+      <BillsCard />
+      <PromoCard />
+      <DiscountProductCard />
+    </Stack>
   );
 }
 
