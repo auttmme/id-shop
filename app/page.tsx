@@ -4,7 +4,7 @@ import ContentWrapper from "./components/content/ContentWrapper";
 
 export default function Home() {
   return (
-    <Box>
+    <Box pb={10}>
       <Header />
       <ContentWrapper />
     </Box>
